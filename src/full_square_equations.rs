@@ -20,7 +20,7 @@ pub fn full_square_equations() {
     } else if e < 0.0 {
         sign = '+';
     } else { sign = 'd';}
-    let mut di: f64 = d-(4.0*a*c);
+    let di: f64 = d-(4.0*a*c);
     let dl: f64 = di.sqrt();
     let x: char;
     let bl: f64 = -b;
